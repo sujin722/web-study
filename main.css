@@ -1,0 +1,24 @@
+p > span {
+    color: blue;
+}
+p > .title{
+    color: blue;
+}
+p {
+    color: red;
+}
+.layout{
+    background-color: pink;
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    border-radius: 20px;
+    text-align: center;    
+}
+.text{
+    color: rgb(162, 81, 20);
+    font-size: 300%;
+    font-weight: 900;
+    margin-top: 120px;
+    font-family: 'Poor Story', system-ui;
+}
