@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //function x()와 return
+        function x(num1, num2){
+            return num1 + num2
+        }
+        let y = x(100,200)
+        console.log(y)
+
+        //문자열을 배열[]로 만들어 주는 함수 split()
+        let str = "대한민국만세!"
+        let str2 = str.split()
+        console.log(str2)
+
+        let str3 = "대-한-민-국-만-세-!"
+        let str4 = str3.split("-")
+        console.log(str4)
+
+        //배열을 문자열로 만들어주는 함수 join()
+        let str5 = str4.join("*")
+        console.log(str5)
+
+        //문자열에서 원하는 글자 찾아주는 함수 indexOf("")
+        console.log(str.indexOf("한"))
+        console.log(str3.indexOf("한"))
+        console.log(str3.indexOf("꾹"))
+
+
+
+    </script>
+    
+</body>
+</html>

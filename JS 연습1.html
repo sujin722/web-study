@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 연습1</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 변수, 숫자, 문자, boolean
+    let a = "값"
+    let b = 100
+    let c = true
+    let d = false
+    
+    let a2 = "은 뭘까요?"
+    let a3 = a + a2
+    console.log(a3)
+    let b2 = 200
+    let b3 = b + b2
+    console.log(b3)
+    let ab = a + b
+    console.log(ab)
+    let c2 = 10 > 5
+    console.log(c2)
+
+    console.log(b - b2)
+    console.log(b * b2)
+    console.log(b / b2)
+    console.log(b % b2)
+
+    let str = "문자"
+    let str2 = '문자'
+    let str3 = `문자`
+    console.log(`저의 나이는 ${b}`)
+
+    // 객체와 배열(arr)
+    let arr = [1,2,3,4,'문자', true, false]
+    console.log(arr[5])
+    arr.push("값")
+    console.log(arr)
+
+    let obj = {
+        "key" : "value",
+        "key2" : "value2"
+    }
+    console.log(obj)
+
+    let dic = [
+        {"a":"apple"},
+        {"b":"banana"},
+        {"c":"cloud"},
+    ]
+    console.log(dic)
+
+
+    let api = {
+        "page" : 1,
+        "total_results" : 10000,
+        "total_pages" : 500,
+        "results" : [
+            {
+                "popularity" : 3130.643,
+                "vote_count" : 143,
+                "video" : false,
+                "genre_ids" : [
+                    18,
+                    878,
+                    53
+                ],
+                "title" : "2067",
+                "vote_average" : 5.8
+
+            }
+        ]
+    }
+    console.log(api.results[0].vote_count)
+
+</script>
+</html>
