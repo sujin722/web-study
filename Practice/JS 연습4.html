@@ -14,7 +14,7 @@
     <script>
 
         $(document).ready(function(){
-            console.log("바로시작!")
+            console.log("시작")
 
             $.ajax({
                 url:"https://api.themoviedb.org/3/movie/popular?api_key=10923b261ba94b897ac6b81148314a3f&page=1",
@@ -22,6 +22,7 @@
                 type:"GET",
                 success:function(json){
                     console.log(json)
+                    let movie_list = json.results;
                 },
                 error:function(err){
 

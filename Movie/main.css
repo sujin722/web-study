@@ -1,0 +1,12 @@
+*{
+    font-family: 'Jua', sans-serif;
+}
+
+#jumbotron{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#review-button{
+    width: 100%;
+}
